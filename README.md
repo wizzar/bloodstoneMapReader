@@ -20,21 +20,35 @@ The second byte indicates the color of the pixel. The value corresponds to a uni
 
 The meaning of the third byte is unknown at the moment, but it's probably related to some sort of flag for special objects or textures on a tile. Here is a list of known third bytes:
 
-FF
+`FF
+
 64
+
 78
+
 82
+
 7D
+
 6E
+
 87
+
 8C
+
 B4
+
 C8
+
 96
+
 FE
+
 FA
+
 9D
-F5
+
+F5`
 
 
 ### The color table
