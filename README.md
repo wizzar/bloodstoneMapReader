@@ -18,7 +18,24 @@ Each pixel is composed of 3 bytes of information.
 
 The second byte indicates the color of the pixel. The value corresponds to a unique color value stored on a table (colorTable.bin file). There are 251 possible colors.
 
-The meaning of the third byte is unknown at the moment, but it's probably related to some sort of flag for special objects or textures on a tile.
+The meaning of the third byte is unknown at the moment, but it's probably related to some sort of flag for special objects or textures on a tile. Here is a list of known third bytes:
+
+FF
+64
+78
+82
+7D
+6E
+87
+8C
+B4
+C8
+96
+FE
+FA
+9D
+F5
+
 
 ### The color table
 I was able to dig out a table of colors from the executable and find a pattern in how they are loaded. Each entry on the table is 24 bytes long, but only a few of the bytes represents the actual color.
