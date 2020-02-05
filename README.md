@@ -14,7 +14,7 @@ The `X` coordinate is `0x0410`, the Y coordinate is `0x0420`, and the floor is `
 After the first 5 bytes we begin reading the colors for each pixel, starting from left to right, top to bottom.
 Each pixel is composed of 3 bytes of information.
 
-(NOT SURE, BUT LOOKS CORRECT) The first byte indicates the type of the tile. The types are `01` (can't walk), `04` (unexcplored), `05` (can walk), and `07` (objects that changes player's elevation, and all sorts of stairs, holes, etc.)
+(NOT SURE, BUT LOOKS CORRECT) The first byte indicates the type of the tile. The types are `01` (can't walk), `04` (unexplored), `05` (can walk), and `07` (objects that changes player's elevation, and all sorts of stairs, holes, etc.)
 
 The second byte indicates the color of the pixel. The value corresponds to a unique color value stored on a table (colorTable.bin file). There are 251 possible colors.
 
